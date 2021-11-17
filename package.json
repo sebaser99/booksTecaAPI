@@ -1,0 +1,22 @@
+{
+  "name": "booksapi",
+  "version": "1.0.0",
+  "description": "this is an API to admin  users that can create books ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node.js",
+    "API"
+  ],
+  "author": "sebaser99",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
