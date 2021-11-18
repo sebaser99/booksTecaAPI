@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express()
+const cors = require('cors')
 const booksRoutes = require('./books/routes/index')
 const port = 3000;
 
 //middlewares
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
+app.use(cors())
 
 //port config
 app.listen(port)

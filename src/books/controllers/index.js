@@ -5,7 +5,7 @@ queryUpdateLike, queryUpdateDislike} = require('../queries/index')
 const getBooks = async (req, res)=>{
     try{
         const response = await pool.query(queryGetBooks)
-        res.json(response)
+        res.json(response.rows)
 
 
     }catch(err){
