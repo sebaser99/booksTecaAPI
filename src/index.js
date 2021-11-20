@@ -2,7 +2,7 @@ const express = require('express');
 const app = express()
 const cors = require('cors')
 const booksRoutes = require('./books/routes/index')
-const port = 3000;
+const port = 4000;
 
 //middlewares
 app.use(express.json())
